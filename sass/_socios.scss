@@ -1,0 +1,82 @@
+
+#hinchada .containerHinchada {
+    text-align: center;
+    padding:  12px;
+    background-color: goldenrod;
+
+}
+
+.containerHinchada {
+    max-width: 1400px;
+    margin: auto;
+    }
+
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+
+}
+@media (min-width:500px) {
+
+    .formulario{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: yellow;
+
+    }
+   
+}
+
+@media (min-width:768px) {
+    #hinchada .containerHinchada {
+        display: flex;
+        justify-content: space-evenly;
+        
+
+        .textoCapacidad {
+            width: 50%;
+            text-align: initial;
+            padding: 0px 30px;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+        }   
+    
+    }
+
+    .formulario{
+    
+        background-color: yellow;
+        padding: 30px;
+        margin: 0px;
+        border-radius: 4px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        .p{
+            font-size: larger;
+    
+        }
+   
+    }
+
+   
+    
+    #hero h6 {
+
+        font-size: 4em;
+        
+    }
+}

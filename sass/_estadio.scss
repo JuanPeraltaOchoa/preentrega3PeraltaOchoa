@@ -1,0 +1,154 @@
+
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../bombonera\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+
+
+}
+
+#capacidad .container {
+    text-align: center;
+    padding: 200px 12px;
+    background-color: goldenrod;
+
+}
+
+#nuestroEstadio {
+    background-color: #032d41;
+    color: goldenrod;
+    text-align: center;
+
+    .container {
+        padding: 100px 12px;
+
+    }
+
+    p {
+        display: none;
+    }
+}
+
+
+
+
+
+#linkTour,
+.linkUno,
+.linkDos,
+.linkTres {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+
+}
+
+.linkUno {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/bombonera\ 2.jpg);
+}
+
+
+.linkDos {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/bombonera\ 3.jpg);
+}
+
+.linkTres {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/bombonera\ 4.jpg);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: goldenrod;
+}
+
+button:hover {
+    background-color: #032d41;
+}
+
+@media (min-width:768px) {
+    #capacidad .container {
+        display: flex;
+        justify-content: space-evenly;
+        
+
+        .textoCapacidad {
+            width: 50%;
+            text-align: initial;
+            padding: 0px 30px;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+        }
+        .img-container {
+            background-image: url(../img/bombonera\ 5.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: 500px;
+            width: 400px;
+    
+        }
+    
+    
+    }
+
+    
+    
+    #hero h6 {
+
+        font-size: 4em;
+        
+    }
+
+    #nuestroEstadio .linkTour {
+        display: flex;
+        justify-content: center;
+
+        p {
+            display: block;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+
+         
+    }
+
+    #linkTour,
+    .linkUno,
+    .linkDos,
+    .linkTres {
+        padding: 15px;
+    }
+}

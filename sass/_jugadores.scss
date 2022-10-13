@@ -1,0 +1,203 @@
+.arquero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    transition: transform 0.5s;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: black;
+    position: relative;
+
+}
+
+.defensor {
+    border: 2px solid black;
+    background-color: rgba(183, 255, 0, 0.478);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    transition: transform 0.5s;
+    padding: 10px;
+    margin: 10px;
+}
+
+.volante {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    transition: transform 0.5s;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    background-color: rgb(66, 173, 116);
+}
+
+.delantero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60%;
+    transition: transform 0.5s;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid blue;
+    background-color: rgb(66, 102, 173);
+}
+
+.jugadores {
+    background-color: goldenrod;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-items: center;
+}
+
+
+
+
+.imagenJugador {
+    width: 300;
+    height: 250px;
+    border: 8px solid #3a3548;
+    margin-top: 15px;
+}
+
+@media (min-width:500px) {
+    .imagenJugador {
+        width: 550px;
+        height: 400px;
+    }
+    .arquero {
+        width: 50%;
+
+    }
+
+    .defensor {
+        width: 50%;
+    }
+
+    .volante {
+
+        width: 50%;
+        background-color: rgb(66, 173, 116);
+    }
+
+    .delantero {
+        width: 50%;
+        transition: transform 0.5s;
+        border: 2px solid blue;
+        background-color: rgb(66, 102, 173);
+    }
+}
+
+@media (min-width:768px) {
+    .jugadores {
+        background-color: rgb(31, 72, 72);
+        border: 1px solid black;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .arquero {
+        width: 25%;
+    }
+
+    .defensor {
+        background-color: rgba(183, 255, 0, 0.478);
+        width: 30%;
+
+    }
+
+    .volante {
+
+        width: 25%;
+        border: 2px solid blue;
+        background-color: rgb(66, 173, 116);
+    }
+
+    .delantero {
+
+        width: 30%;
+        border: 2px solid blue;
+        background-color: rgb(66, 102, 173);
+    }
+    .imagenJugador {
+        width: 150px;
+        height: 100px;
+    }
+}
+
+@media(min-width:1024px) {
+    .imagenJugador {
+        width: 400px;
+        height: 300px;
+    }
+
+    .jugadores {
+        background-color: aquamarine;
+    }
+    .arquero {
+        width: 25%;
+        border: 2px solid black;
+        background-color: #032d41;
+
+    }
+
+    .defensor {
+        color: goldenrod;
+        border: 2px solid black;
+        background-color: #032d41;
+        width: 25%;
+
+    }
+
+    .volante {
+        color: goldenrod;
+        width: 25%;
+        border: 2px solid black;
+        background-color: #032d41;
+    }
+
+    .delantero {
+        color: goldenrod;
+        width: 25%;
+        border: 2px solid blue;
+        background-color: #032d41;
+    }
+    .galeria {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+ }
+
+ .arquero:hover,
+.defensor:hover,
+.volante:hover,
+.delantero:hover {
+    transform: scale(1.05);
+}
+
+.imagenJugador {
+    width: 80%;
+    border-radius: 30%;
+    border: 5px solid goldenrod;
+}
